@@ -1,0 +1,34 @@
+span {
+    color: #66ACFA;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    border-radius: 5%;
+    margin: 0 auto;
+}
+
+.My-first-class {
+    display: inline-block;
+    background-color: white;
+    border: 5px outset;
+    border-radius: 5%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
