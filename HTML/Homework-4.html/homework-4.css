@@ -1,0 +1,47 @@
+body{
+    background-color:white;
+}
+.black1{
+    background-color: black;
+    width:600px ;
+    height:600px;
+    float: top;
+    border:5px solid black ;
+}
+.orange1{
+    background-color: orange;
+    width:600px ;
+    height:90px ;
+float: top;
+
+}
+.red{
+    background-color: red;
+    width:150px ;
+    height:400px ;
+    float: left;
+}
+.green{
+    background-color:green;
+    width:150px ;
+    height:400px ;
+    float: left;
+}
+.blue{
+    background-color: blue;
+    width:150px ;
+    height:400px ;
+    float: left;
+}
+.black{
+    background-color: black;
+    width:150px ;
+    height:400px ;
+    float: left;
+}
+.orange2{
+    background-color:orange;
+    width:600px ;
+    height:110px ;
+float: left;
+}
