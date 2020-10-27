@@ -8,15 +8,15 @@ body {
     font-family: 'Fira Sans', sans-serif;
 }
 
-ul {
+.header-top ul {
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 12px;
-    padding-left: 450px;
-    padding-right: 450px;
+    padding-left: 23.4%;
+    padding-right: 23.4%;
     padding-top: 10px;
     padding-bottom: 10px;
     list-style: none;
@@ -43,29 +43,29 @@ ul {
 .text-sections {
     color: white;
     height: 20px;
-    width: 90px;
+    width: 4.8%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    right: 735px;
+    right: 38.3%;
     top: 42px;
 }
 
 .icon-menu {
     color: white;
     height: 20px;
-    width: 30px;
+    width: 1.6%;
     display: flex;
     align-items: center;
     position: relative;
     top: 60px;
-    right: 800px;
+    right: 41.7%;
     font-size: 24px;
 }
 
 .logo {
-    width: 350px;
+    width: 45%;
     height: 30px;
 }
 
@@ -75,7 +75,7 @@ ul {
 
 .logo-text {
     color: white;
-    width: 350px;
+    width: 50%;
     height: 10px;
     text-transform: uppercase;
     display: flex;
@@ -89,8 +89,8 @@ ul {
 .logo-text2 {
     text-decoration: none;
     color: white;
-    width: 340px;
-    height: 10px;
+    width: 80%;
+    height: 20px;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -104,15 +104,15 @@ ul {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
-    width: 40px;
+    width: 2.1%;
     height: 30px;
     position: relative;
-    bottom: 10px;
-    left: 500px;
+    bottom: 9px;
+    left: 780%;
 }
 
 .lang {
-    width: 40px;
+    width: 3%;
     height: 30px;
 }
 
@@ -127,20 +127,75 @@ ul {
     border-radius: 20px;
     position: relative;
     bottom: 50px;
-    left: 1500px;
+    left: 78.1%;
 }
-.button span{
+
+.button span {
     display: flex;
     font-size: 14px;
     font-weight: 800;
     text-transform: uppercase;
     line-height: 30px;
-    padding-top:2px;
-    padding-right:2px ;
+    padding-top: 2px;
+    padding-right: 2px;
     padding-left: 2px;
-    color:white;
+    color: white;
 
 }
+
 .button a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 1060px) {
+    .header-top ul {
+        font-size: 8px;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+@media screen and (max-width:645px) {
+    .logo-text2 {
+        display: none;
+    }
+    .header-main {
+        height: 75px;
+    }
+}
+@media screen and (max-width: 1499px ) {
+    .logo-text {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 749px ) {
+    .logo-text {
+        width: 90%;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 835px ) {
+    .logo-text {
+        width: 100%;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1220px){
+    .UaRu {
+        display: none;
+    }
+}
+@media screen  and (max-width:1250px){
+    .text-sections {
+        display:none;
+    }
+    .icon-menu
+    {
+
+        height: 20px;
+        position: relative;
+        top: 40px;
+        font-size: 24px;
+    }
 }
